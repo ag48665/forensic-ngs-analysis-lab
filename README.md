@@ -6,8 +6,6 @@ Educational bioinformatics project for exploring next-generation sequencing (NGS
 
 Next-generation sequencing (NGS) has become an important technology in modern genomics, enabling large-scale DNA analysis, variant discovery, and forensic applications.
 
-![NGS Experiment](reports/ngs_experiment.png)
-
 This project simulates core steps of an NGS analysis workflow using Python, including sequencing read generation, quality assessment, variant detection, and experimental evaluation.
 
 The framework provides an educational introduction to bioinformatics concepts commonly used in genomic and forensic laboratories.
@@ -100,6 +98,18 @@ Results demonstrate reliable detection of true variants despite sequencing noise
 
 ---
 
+## Key Results
+
+| Analysis                | Result     |
+| ----------------------- | ---------- |
+| Average Phred Quality   | 40.0       |
+| Average Variant Support | 77.01      |
+| Variant Detection       | Successful |
+
+The experiment demonstrates that true variants can be reliably detected despite sequencing noise introduced during read generation.
+
+---
+
 ## Research Questions
 
 1. How does sequencing quality affect variant detection?
@@ -171,18 +181,6 @@ Generate visualization:
 ```bash
 python src/plot_ngs_results.py
 ```
-
----
-
-## Key Results
-
-| Analysis                | Result     |
-| ----------------------- | ---------- |
-| Average Phred Quality   | 40.0       |
-| Average Variant Support | 77.01      |
-| Variant Detection       | Successful |
-
-The experiment demonstrates that true variants can be reliably detected despite sequencing noise introduced during read generation.
 
 ---
 
