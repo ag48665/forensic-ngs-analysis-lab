@@ -1,6 +1,6 @@
 # Forensic NGS Analysis Lab
 
-Educational bioinformatics project for exploring next-generation sequencing (NGS) workflows and forensic genomics.
+Bioinformatics project exploring core next-generation sequencing (NGS) concepts including FASTQ generation, quality assessment, variant detection, and experimental evaluation.
 
 ## Overview
 
@@ -9,6 +9,23 @@ Next-generation sequencing (NGS) has become an important technology in modern ge
 This project simulates core steps of an NGS analysis workflow using Python, including sequencing read generation, quality assessment, variant detection, and experimental evaluation.
 
 The framework provides an educational introduction to bioinformatics concepts commonly used in genomic and forensic laboratories.
+
+---
+## Project Highlights
+
+✔ FASTQ read simulation
+
+✔ Quality control using Phred scores
+
+✔ Sequencing error simulation
+
+✔ Variant calling workflow
+
+✔ SNP detection experiments
+
+✔ Monte Carlo simulation framework
+
+✔ Reproducible Python-based genomics analysis
 
 ---
 
@@ -109,6 +126,13 @@ Results demonstrate reliable detection of true variants despite sequencing noise
 The experiment demonstrates that true variants can be reliably detected despite sequencing noise introduced during read generation.
 
 ---
+## Key Takeaway
+
+This project demonstrates how sequencing quality, read sampling, and variant support influence SNP detection within a simplified NGS environment.
+
+Although educational in scope, the workflow reproduces several key concepts used in real-world genomic and forensic sequencing pipelines.
+
+---
 
 ## Research Questions
 
@@ -119,7 +143,33 @@ The experiment demonstrates that true variants can be reliably detected despite 
 5. How can sequencing noise be distinguished from true genetic variation?
 
 ---
+## Skills Demonstrated
 
+### Bioinformatics
+
+- FASTQ processing
+- Quality control concepts
+- Variant detection
+- Sequencing error modelling
+- NGS workflow design
+- Genomic data analysis
+
+### Programming
+
+- Python
+- Data simulation
+- Statistical analysis
+- Data visualization
+- Reproducible workflows
+
+### Genomics
+
+- DNA sequencing
+- SNP identification
+- Variant interpretation
+- Forensic genomics
+
+---
 ## Methods
 
 * FASTQ simulation
@@ -183,19 +233,13 @@ python src/plot_ngs_results.py
 ```
 
 ---
+Future Work 
 
-## Future Work
-
-* Paired-end sequencing simulation
-* Read alignment algorithms
-* Coverage analysis
-* VCF generation
-* Multiple SNP detection
-* INDEL simulation
-* Population variant frequencies
-* Forensic ancestry inference
-* Advanced NGS workflows
-
+* Read alignment using BWA
+* SAM/BAM processing
+* Variant calling with bcftools
+* VCF generation and parsing
+* Integration with publicly available genomic datasets
 ---
 
 ## Disclaimer
@@ -208,4 +252,18 @@ It is not validated for forensic casework and must not be used in real investiga
 
 ## Author
 
-Agata Gabara
+**Agata Gabara**
+
+Incoming MSc Bioinformatics Student
+
+Research Interests:
+
+- Cancer Genomics
+- Computational Biology
+- NGS Analysis
+- Population Genetics
+- Machine Learning for Genomics
+
+GitHub: https://github.com/ag48665
+
+LinkedIn: https://www.linkedin.com/in/agatha-gabara-06494a37/
